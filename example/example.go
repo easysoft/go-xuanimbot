@@ -3,7 +3,7 @@
 
 package main
 
-import xuanim "github.com/ysicing/go-xuanimbot"
+import xuanim "github.com/easysoft/go-xuanimbot"
 
 func main() {
 	customClient, _ := xuanim.New("123", "xxx", xuanim.WithBaseURL("https://demo.xuanim"), xuanim.WithCustom(true))
